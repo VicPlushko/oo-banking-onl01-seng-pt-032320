@@ -18,5 +18,6 @@ class Transfer
        @receiver += @amount
        @status = "complete"
     else
+       @status = "rejected"
   end
 end
