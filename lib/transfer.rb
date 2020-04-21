@@ -14,4 +14,5 @@ class Transfer
   
   def execute_transaction
     @sender.self
+  end
 end
