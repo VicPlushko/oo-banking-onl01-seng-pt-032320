@@ -4,7 +4,7 @@ class Transfer
   
   def initialize(transfer, sender, receiver)
     @transfer = transfer
-    @sender = reciever
+    @sender = sender(name)
     @receiver = receiver
   end
 end
