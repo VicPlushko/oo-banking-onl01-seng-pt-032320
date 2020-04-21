@@ -19,5 +19,6 @@ class Transfer
        @status = "complete"
     else
        @status = "rejected"
+       "Transaction rejected, please"
   end
 end
