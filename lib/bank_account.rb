@@ -9,6 +9,6 @@ class BankAccount
   end
   
   def deposit
-    @balance + 1000
+    @balance
   end
 end
