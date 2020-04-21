@@ -20,7 +20,10 @@ class Transfer
     @status == "complete"
     puts "Transaction was already executed."
     else
-      
+      @sender.balance > @amount && @status == "pending"
+       @sender.balance -= @amount
+       @receiver.balance += @amount
+       @status = "complete"
     end
   end
 end
